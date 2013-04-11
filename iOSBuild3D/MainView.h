@@ -1,5 +1,5 @@
 //
-//  B3DViewController.h
+//  MainView.h
 //  iOSBuild3D
 //
 //  Created by Cesar Canassa on 4/6/13.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-extern int32_t pos_x, pos_y, pos_z;
-extern short ang, sector_num;
+@interface MainView : UIView
 
-
-@interface B3DViewController : UIViewController
-+ (void)draw;
 @end
