@@ -600,9 +600,6 @@ static void FloorCeilingScan (int32_t x1, int32_t x2, InnerSector floor_or_ceili
     int32_t vis;
     uint8_t *pallete = (uint8_t *)palookup[floor_or_ceiling.pal];
 
-    if (floor_or_ceiling.pal == 2) {
-        x2 = 1;
-    }
     
     zd = GetDistanceFromFloorOrCeiling(floor_or_ceiling, engine_state->posz, is_floor);
     
